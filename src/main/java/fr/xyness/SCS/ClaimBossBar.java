@@ -27,7 +27,7 @@ public class ClaimBossBar {
 	private final ConcurrentMap<Player, BossBar> bossBars = new ConcurrentHashMap<>();
     
     /** Instance of SimpleClaimSystem */
-    private SimpleClaimSystem instance;
+    public SimpleClaimSystem instance;
     
     /** Default bossbar color */
     private BarColor defaultColor;

@@ -26,7 +26,7 @@ public class SimpleClaimSystemAPI_Impl implements SimpleClaimSystemAPI {
 	
 	
 	/** Instance of SimpleClaimSystem */
-	private SimpleClaimSystem instance;
+	public SimpleClaimSystem instance;
 	
 	
     // ******************
@@ -47,8 +47,10 @@ public class SimpleClaimSystemAPI_Impl implements SimpleClaimSystemAPI {
     // *******************
     // *  Other Methods  *
     // *******************
-	
 
+	public SimpleClaimSystemAPI getAPI() {
+		return this;
+	}
 	// Player methods
 
 	@Override

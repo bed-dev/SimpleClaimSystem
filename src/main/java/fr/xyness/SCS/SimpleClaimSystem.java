@@ -105,7 +105,7 @@ public class SimpleClaimSystem extends JavaPlugin {
     private ClaimBossBar claimBossBarInstance;
     
     /** Instance of SimpleClaimSystem for useful methods */
-    private SimpleClaimSystem instance;
+    public SimpleClaimSystem instance;
     
 	/** Instance of SimpleClaimSystemAPI */
     public static SimpleClaimSystemAPI apiInstance;
